@@ -44,6 +44,7 @@ def tiny_params(tiny_model, tiny_input):
 
 def test_import():
     from jax_morph import ViT3DRegression, morph_Ti, morph_S, MORPH_CONFIGS
+
     assert "Ti" in MORPH_CONFIGS
 
 
@@ -70,5 +71,6 @@ def test_forward_finite(tiny_model, tiny_input, tiny_params):
 
 def test_convenience_constructors():
     from jax_morph import morph_Ti, morph_S
+
     assert morph_Ti() is not None
     assert morph_S() is not None

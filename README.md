@@ -1,5 +1,9 @@
 # jax_morph
 
+> **Note:** This package is designed to be used with [jNO](https://github.com/armbrusl/jNO).
+
+> **Warning:** This is a research-level repository. It may contain bugs and is subject to continuous change without notice.
+
 JAX/Flax translation of the **MORPH** PDE foundation model, maintaining exact 1-to-1 weight compatibility with the original PyTorch implementation for pretrained checkpoint conversion.
 
 ## Overview

@@ -7,6 +7,14 @@ maintaining exact weight compatibility for pretrained checkpoint conversion.
 Reference:
     Rautela et al., "MORPH: PDE Foundation Models with Arbitrary Data Modality" (2025)
     https://arxiv.org/abs/2509.21670
+
+.. note::
+    This package is designed to be used with jNO
+    (https://github.com/FhG-IISB/jNO).
+
+.. warning::
+    This is a research-level repository. It may contain bugs and is subject
+    to continuous change without notice.
 """
 
 from importlib.metadata import version, PackageNotFoundError
